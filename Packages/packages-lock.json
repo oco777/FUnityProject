@@ -1,5 +1,13 @@
 {
   "dependencies": {
+    "com.papacoder.funity": {
+      "version": "file:/Git/FUnity",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {
+        "com.unity.ui": "1.0.0"
+      }
+    },
     "com.unity.multiplayer.center": {
       "version": "1.0.0",
       "depth": 0,
@@ -7,6 +15,12 @@
       "dependencies": {
         "com.unity.modules.uielements": "1.0.0"
       }
+    },
+    "com.unity.ui": {
+      "version": "2.0.0",
+      "depth": 1,
+      "source": "builtin",
+      "dependencies": {}
     },
     "com.unity.modules.accessibility": {
       "version": "1.0.0",
