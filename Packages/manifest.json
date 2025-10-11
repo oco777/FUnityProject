@@ -42,6 +42,6 @@
     "com.unity.modules.vr": "1.0.0",
     "com.unity.modules.wind": "1.0.0",
     "com.unity.modules.xr": "1.0.0",
-    "com.papacoder.funity": "file:/Git/FUnity"
+    "com.papacoder.funity": "https://github.com/oco777/FUnity.git#main"
   }
 }

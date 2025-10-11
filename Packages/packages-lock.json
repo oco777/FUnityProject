@@ -1,12 +1,13 @@
 {
   "dependencies": {
     "com.papacoder.funity": {
-      "version": "file:/Git/FUnity",
+      "version": "https://github.com/oco777/FUnity.git#main",
       "depth": 0,
-      "source": "local",
+      "source": "git",
       "dependencies": {
         "com.unity.ui": "1.0.0"
-      }
+      },
+      "hash": "d8a3af2bb359264d45fdddb3ede45b45e1eee691"
     },
     "com.unity.ai.navigation": {
       "version": "2.0.9",
