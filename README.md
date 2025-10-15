@@ -25,8 +25,6 @@ Assets/
  │         └── FUnityPanelSettings.asset
  ├── Scripts/              # 実行用スクリプト
  │    └── FUnityUIInitializer.cs
- ├── Editor/               # エディター拡張
- │    └── FUnitySceneFixer.cs
  ├── README.md             # このファイル
 Packages/
  ├── manifest.json         # FUnityパッケージ参照設定
@@ -39,9 +37,9 @@ ProjectSettings/
 
 ## ⚙️ 利用方法
 
-1. Unity 6000.0.58f2 以降でこのプロジェクトを開く  
-2. メニューから **FUnity → Repair Sample Scene** を選択  
-3. UIDocument に `block.uxml` が自動で設定され、UIが表示されます  
+1. Unity 6000.0.58f2 以降でこのプロジェクトを開く
+2. `Assets/FUnity/Scenes/FUnitySample.unity`（または同等のサンプルシーン）を開く
+3. 再生すると、シーン内の **FUnityManager** が自動で `FUnity UI` オブジェクトと `UIDocument` を生成し、`FUnityPanelSettings` と UI が適用されます
 
 💡 パッケージを別フォルダに配置している場合は、  
 `Packages/manifest.json` の以下の設定を確認してください。
@@ -61,7 +59,7 @@ ProjectSettings/
 | ファイル | 概要 |
 |-----------|------|
 | `Assets/Scripts/FUnityUIInitializer.cs` | UIDocumentにUXML・PanelSettingsを適用 |
-| `Assets/Editor/FUnitySceneFixer.cs` | FUnitySampleシーンを自動修復するエディタ拡張 |
+| `Packages/com.papacoder.funity/Runtime/FUnityManager.cs` | シーン起動時に FUnity UI を生成し、UIDocument に設定を適用 |
 
 ---
 
